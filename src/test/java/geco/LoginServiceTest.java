@@ -55,6 +55,6 @@ public class LoginServiceTest {
         Assert.assertEquals(1,allLogins.size());
         ls.addLogin("AAA");
         allLogins = ls.findAllLogins();
-        Assert.assertEquals(2, allLogins.size());
+        Assert.assertEquals(2, allLogins.size()) ;
     }
 }
