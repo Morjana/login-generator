@@ -19,7 +19,7 @@ public class LoginServiceTest {
         String[] start = new String[1];
         start[0]=ANEM;
         ls = new LoginService(start);
-        
+
     }
 
     @Test
@@ -55,6 +55,6 @@ public class LoginServiceTest {
         Assert.assertEquals(1,allLogins.size());
         ls.addLogin("AAA");
         allLogins = ls.findAllLogins();
-        Assert.assertEquals(2, allLogins.size()) ;
+        Assert.assertEquals(2, allLogins.size());
     }
 }
