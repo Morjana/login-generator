@@ -43,7 +43,7 @@ public class LoginGenerator {
             int idx = allLoginsStartingWith.size();
             login = login + idx;
         }
-        loginService.addLogin(login);
+        loginService.addLogin(login) ;
         return login;
     }
 
